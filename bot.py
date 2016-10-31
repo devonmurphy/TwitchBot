@@ -5,7 +5,7 @@ import socket
 HOST = "irc.twitch.tv"
 PORT = 6667
 NICK = "yxbljab"
-PASS = "oauth:joliitq9h7efzgpd11wp52vwt5lrk3"
+PASS = "oauth:"
 CHAN = "#yxbljab"
 RATE = (20 / 30)
 CHAT_MSG = re.compile(r"^:\w+!\w+@\w+\.tmi\.twitch\.tv PRIVMSG #\w+ :")
